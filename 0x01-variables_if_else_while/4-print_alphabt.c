@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char a = 97
+	char a = 97;
 
 	while (a <= 122 && != 101 && != 113)
 	{
