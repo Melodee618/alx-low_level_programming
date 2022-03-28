@@ -3,7 +3,7 @@
 * _strchr -locates a character in a string
 * @s: string.
 * @c: character.
-* 
+*
 * Return: A pointer to the occurrence of the character c
 */
 char *_strchr(char *s, char c)
@@ -12,8 +12,8 @@ char *_strchr(char *s, char c)
 
 	for (; *(s + i) != '\0'; i++)
 		if (*(s + i) == c)
-			return(s + i);
-	if(*(s + i) == c)
+			return (s + i);
+	if (*(s + i) == c)
 		return (s + i);
-	return('\0');
+	return ('\0');
 }
