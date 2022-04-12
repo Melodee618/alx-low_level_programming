@@ -2,12 +2,6 @@
 #define _DOG_H_
 
 /**
-* dog_t - typedef for struct dog
-*/
-
-typedef struct dog dog_t;
-
-/**
 * struct dog - a structure with three elements char *, float, char *
 * @name:stores dog's name when init
 * @age: stores dog's age when init
@@ -22,6 +16,11 @@ struct dog
 	float age;
 	char *owner;
 };
+
+/**
+* dog_t - a typedef for struct dog
+*/
+typedef struct dog dog_t;
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
